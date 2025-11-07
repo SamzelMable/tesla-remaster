@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/SamzelMable/tesla-remaster/static/css/main.1de85704.css",
+    "main.js": "/SamzelMable/tesla-remaster/static/js/main.85399d6a.js",
+    "static/media/tesla.glb": "/SamzelMable/tesla-remaster/static/media/tesla.d8a6aa9b19a8082b69ab.glb",
+    "static/media/interior.jpg": "/SamzelMable/tesla-remaster/static/media/interior.c219c23922cf837ce5d1.jpg",
+    "static/media/supercharging.jpg": "/SamzelMable/tesla-remaster/static/media/supercharging.f6d9af7e73e198653e51.jpg",
+    "static/media/autopilot.jpg": "/SamzelMable/tesla-remaster/static/media/autopilot.488d96fe43b0f976862c.jpg",
+    "static/media/range.jpg": "/SamzelMable/tesla-remaster/static/media/range.5aae32b0bb4a3ef9e48e.jpg",
+    "static/media/map.avif": "/SamzelMable/tesla-remaster/static/media/map.1b0e18041acfe19abdd0.avif",
+    "index.html": "/SamzelMable/tesla-remaster/index.html",
+    "main.1de85704.css.map": "/SamzelMable/tesla-remaster/static/css/main.1de85704.css.map",
+    "main.85399d6a.js.map": "/SamzelMable/tesla-remaster/static/js/main.85399d6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de85704.css",
+    "static/js/main.85399d6a.js"
+  ]
+}
