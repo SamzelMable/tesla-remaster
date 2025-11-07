@@ -2,7 +2,7 @@
   "name": "tesla-remaster",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SamzelMable/tesla-remaster/",
+  "homepage": "https://samzelmable.github.io/tesla-remaster/",
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
