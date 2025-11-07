@@ -1,0 +1,73 @@
+.supercharger {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.supercharger-container {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.supercharger-map {
+  width: 100%;
+  height: auto;
+  max-height: 600px; /* limits overall height */
+  border-radius: 32px; /* smoother curved edges */
+  object-fit: cover;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  filter: brightness(0.95);
+  transition: transform 0.3s ease;
+}
+
+.supercharger-map:hover {
+  transform: scale(1.02);
+}
+
+.supercharger-overlay {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #111;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem 2.5rem;
+  border-radius: 20px;
+  max-width: 440px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.supercharger-overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.supercharger-overlay p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.supercharger-overlay .btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #e82127;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.supercharger-overlay .btn:hover {
+  background: #b4171d;
+}
