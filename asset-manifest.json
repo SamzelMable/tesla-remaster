@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tesla-remaster/static/css/main.1de85704.css",
-    "main.js": "/tesla-remaster/static/js/main.a120b91d.js",
+    "main.js": "/tesla-remaster/static/js/main.601accbb.js",
     "static/media/tesla.glb": "/tesla-remaster/static/media/tesla.d8a6aa9b19a8082b69ab.glb",
     "static/media/interior.jpg": "/tesla-remaster/static/media/interior.c219c23922cf837ce5d1.jpg",
     "static/media/supercharging.jpg": "/tesla-remaster/static/media/supercharging.f6d9af7e73e198653e51.jpg",
@@ -10,10 +10,10 @@
     "static/media/map.avif": "/tesla-remaster/static/media/map.1b0e18041acfe19abdd0.avif",
     "index.html": "/tesla-remaster/index.html",
     "main.1de85704.css.map": "/tesla-remaster/static/css/main.1de85704.css.map",
-    "main.a120b91d.js.map": "/tesla-remaster/static/js/main.a120b91d.js.map"
+    "main.601accbb.js.map": "/tesla-remaster/static/js/main.601accbb.js.map"
   },
   "entrypoints": [
     "static/css/main.1de85704.css",
-    "static/js/main.a120b91d.js"
+    "static/js/main.601accbb.js"
   ]
 }
