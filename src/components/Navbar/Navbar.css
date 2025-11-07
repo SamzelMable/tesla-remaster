@@ -127,3 +127,8 @@
     display: flex;
   }
 }
+
+.navbar-logo img {
+  height: 100px; /* adjust to fit your navbar */
+  width: auto;
+}

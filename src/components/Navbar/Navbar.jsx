@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./Navbar.css";
+import Logo from '../../assets/images/tesla-logo.png';
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,7 +31,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">TESLA</div>
+      <div className="navbar-logo">
+        <img src={Logo} alt="Tesla Logo" />
+      </div>
 
       {/* Desktop Links */}
       <ul className="navbar-links">

@@ -4,9 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem 2rem;
+  padding: 8rem 2rem;
   position: relative;
   z-index: 1;
+  flex-direction: column; /* stack content vertically on small screens */
 }
 
 .supercharger-container {
@@ -71,3 +72,26 @@
 .supercharger-overlay .btn:hover {
   background: #b4171d;
 }
+
+@media (max-width: 768px) {
+  .supercharger-overlay {
+    position: static; /* allow natural flow */
+    transform: none;
+    margin: 1.5rem auto 0; /* top margin + horizontal centering */
+    max-width: 90%;
+    text-align: center; /* center the text inside */
+  }
+
+  .supercharger-map {
+    width: 100%;
+    max-width: 400px; /* smaller image for mobile */
+    border-radius: 24px;
+  }
+
+  .supercharger-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center content */
+  }
+}
+
