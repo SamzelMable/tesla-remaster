@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Parallax Background */}
       <motion.video
         className="hero-bg"
-        src="/assets/videos/tesla-hero.mp4"
+        src={`${process.env.PUBLIC_URL}/assets/videos/tesla-hero.mp4`}
         autoPlay
         muted
         loop
